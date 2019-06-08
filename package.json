@@ -1,0 +1,19 @@
+{
+  "name": "ts-node-demo",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "Warren Wong <me@warrenwong.org>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^12.0.4",
+    "ts-node": "^8.2.0",
+    "typescript": "^3.5.1"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.39"
+  },
+  "scripts": {
+    "start": "yarn ts-node index.ts",
+    "dev": "yarn ts-node-dev index.ts"
+  }
+}
